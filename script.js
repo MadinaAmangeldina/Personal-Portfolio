@@ -52,3 +52,12 @@ function loadIntro(){
 
 // ABOUT SECTION
 
+// let element = document.getElementById("aboutSection");
+//       let sectionOpacity = 0;
+//       let fadeInSection = setInterval(() => {
+//          if (sectionOpacity >= 1) {
+//             clearInterval(fadeIn);
+//          }
+//          element.style.sectionOpacity = sectionOpacity;
+//          sectionOpacity += 0.01;
+//       }, 10);
