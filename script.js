@@ -72,3 +72,6 @@ function loadIntro(){
 //          element.style.sectionOpacity = sectionOpacity;
 //          sectionOpacity += 0.01;
 //       }, 10);
+
+
+// document.getElementById("myPath").setAttribute("d", "M0 0 L30 32 L60 0");

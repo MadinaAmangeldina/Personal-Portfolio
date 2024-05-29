@@ -47,6 +47,11 @@
       <path class="a2" d="M0 20 L50 72 L100 20"></path>
       <path class="a3" d="M0 40 L50 92 L100 40"></path>
     </svg>
+    <svg class="mediaArrows">
+      <path class="b1" d="M0 0 L30 32 L60 0"></path>
+      <path class="b2" d="M0 20 L30 52 L60 20"></path>
+      <path class="b3" d="M0 40 L30 72 L60 40"></path>
+    </svg>
     <button onclick="topFunction()" id="scrollUpBtn" title="Go to top">&uArr;</button>
   </section>
 
@@ -93,16 +98,6 @@
         </p>
       </div>
 
-      <div class="grid-item">
-        <p >
-          <span>MySQL Breakdown Company</span> - modelled database with multiple tables, which are connected by primary and foreign keys.
-          Performed <span>MySQL stored procedure, query operations</span> on data that is meaningful to the company.<br>
-          <span>MySQL</span><br>
-          <a href="https://github.com/MadinaAmangeldina/BreakdownCompanyDB.git" target=”_blank”>
-            <img class="logoGit" height="40px" width="40px" src="media/githubLogo.webp">
-          </a>
-        </p>
-      </div>
       <div class="grid-item" id="mysqlVideo">
         <a class="videoLink" href="https://github.com/MadinaAmangeldina/BreakdownCompanyDB.git" target="_blank">
           <video width="482" height="270" autoplay muted loop>
@@ -110,6 +105,16 @@
           </video>
           <div class="overlay">Click to view</div>
         </a>
+      </div>
+      <div class="grid-item">
+        <p>
+          <span>MySQL Breakdown Company</span> - modelled database with multiple tables, which are connected by primary and foreign keys.
+          Performed <span>MySQL stored procedure, query operations</span> on data that is meaningful to the company.<br>
+          <span>MySQL</span><br>
+          <a href="https://github.com/MadinaAmangeldina/BreakdownCompanyDB.git" target=”_blank”>
+            <img class="logoGit" height="40px" width="40px" src="media/githubLogo.webp">
+          </a>
+        </p>
       </div>
 
       <div class="grid-item" id="filmVideo">
@@ -198,10 +203,7 @@
         <!-- Contact Me -->
   <section id="contactSection">
     <form action="https://api.web3forms.com/submit" method="POST" class="contact">
-      <div class="contactTitle">
-        <h2>Get in touch</h2>
-        <hr>
-      </div>
+      <h2 class="contactTitle">Get in touch</h2>
       <input type="hidden" name="access_key" value="44335cca-400c-45e4-a94f-31572dd119f2">
       <input id="nameInput" type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
       <input id="emailInput" type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
