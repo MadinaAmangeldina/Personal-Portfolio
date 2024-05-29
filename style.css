@@ -71,9 +71,9 @@ nav li:first-child{
   right: 0;
   height: 100vh;
   width: 250px;
-  z-index: 999;
-  background-color: #5666832a;
-  backdrop-filter: blur(25px);
+  z-index: 1;
+  background-color: rgba(86, 102, 131, 0.5);
+  backdrop-filter: blur(15px);
   display: none;
   flex-direction: column;
   align-items: flex-start;
