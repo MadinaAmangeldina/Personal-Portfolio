@@ -515,7 +515,7 @@ p span{
   position: relative;
 }
 
-video{
+.videoLink img{
   border: #8f2b0f solid;
   border-radius: 15px;
 }
@@ -581,7 +581,7 @@ video{
     grid-template-columns: 1fr 1fr;
   }
 
-  video{
+  .videoLink img{
     width: 360px;
     height: 200px;
     border: none;
@@ -598,7 +598,7 @@ video{
     align-content: center;
   }
 
-  video{
+  .videoLink img{
     width: 400px;
     height: 220px;
     border: none;
@@ -637,7 +637,7 @@ video{
     margin: 2rem 0;
   }
 
-  video{
+  .videoLink img{
     width: 400px;
     height: 220px;
     border: none;
@@ -679,7 +679,7 @@ video{
     margin: 2rem 0;
   }
 
-  video{
+  .videoLink img{
     width: 280px;
     height: 160px;
     border: none;
